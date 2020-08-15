@@ -1,2 +1,2 @@
-# firest-time
+# first-time
 My first repository on GitHub
