@@ -1,2 +1,2 @@
-# first-time
+# Hitchhiking
 My first repository on GitHub
