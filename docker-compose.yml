@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  front:
+    container_name: front
+    tty: true
+    build:
+      context: front/
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
+    volumes:
+      - ./front/app:/app
+    command: sh -c 'yarn install; yarn serve'
